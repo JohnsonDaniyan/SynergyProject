@@ -20,7 +20,7 @@ function App() {
   <a className="m-7 md:m-3 text-sky-400" href="#"><FaTwitterSquare/></a>
   <a className="m-7 md:m-3 text-purple-500" href="#"><BsDiscord/></a>
   <a className="m-7 md:m-3 text-sky-400" href= "#"><BsTelegram/></a>
-  <AiOutlineMenu className=" text-2xl md:text-lg m-auto"/>
+  <svg class="w-6 h-6 m-auto" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
 </div>
 <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-cta">
   <ul class="flex flex-col p-4 mt-4 bg-black rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 w-1000 justify-between">
@@ -43,13 +43,15 @@ function App() {
 </div>
 </div>
 </nav>
-<div className=" font-serif lg:flex relative h-screen text-3xl lg:text-7xl">
-<div className=" py-60 lg:py0 lg:mx-80   flex flex-col items-center justify-center">
-<div className=" text-white">Total Value Locked</div>
-<div className=" text-purple-600">21.726.882$</div>
-</div>
-  <img className="bg-blue-400 sm:w-screen md:w-screen lg:w-auto lg:h-screen lg:-rotate-90 lg:relative absolute bottom-10" src={bgHome} alt="" />
-</div>
+<div className=" w-screen font-serif lg:flex relative h-screen text-3xl lg:text-7xl justify-between">
+    <div className=" mt-40 lg:m-40 min-w-fit text-center flex flex-col font-bold justify-center">
+      <div className=" text-white ">Total Value Locked</div>
+      <div className=" text-purple-600">21.726.882$</div>
+    </div>
+    <div className='absolute bottom-40 lg:relative lg:bottom-0'>
+      <img className="flex-1 bg-blue-400 sm:w-screen md:w-screen lg:w-auto lg:h-screen lg:translate-x-20 lg:-rotate-90 lg:relative sm:absolute bottom-10" src={bgHome} alt="" />
+      </div>
+    </div>
   </div>
   );
 }
