@@ -8,7 +8,7 @@ import { Outlet, Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav class=" lg:absolute z-10 bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 sm:left-1/2 sm:-translate-x-1/2">
+    <nav class=" lg:absolute z-10 bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded sm:left-1/2 sm:-translate-x-1/2">
 <div class="container flex-nowrap m-2xl  flex justify-between items-center w-screen ">
 <a href="#" class="flex items-center">
     <Link to="/"> 
