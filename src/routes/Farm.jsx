@@ -9,10 +9,10 @@ import zap from "../images/Gems/zap.png"
 
 function Farm() {
   return (
-    <div className=' text-white font-serif text-8xl flex flex-col justify-center items-center h-screen' >
-        Farm
+    <div className=' relative bg-black pt-5xl text-white font-serif text-8xl flex flex-col justify-center items-center h-screen' >
+        <div className='text-white'>Farm</div>
         <div className=' font-sans flex flex-row justify-between text-center'>
-            <div className=' m-5 text-xl lg:text-2xl bg-black rounded-xl p-1'>
+            <div className=' border-white border-4 m-5 text-xl lg:text-2xl bg-black rounded-xl p-1'>
                 <img src={crystal} alt="" />
                 <div className="font-bold mb-2">CRYSTAL/BUSD</div>
                 <div className='flex flex-row text-xs w-full justify-between text-zinc-400'>
@@ -41,7 +41,7 @@ function Farm() {
                     <a href="#"><img src={plus} alt="" /></a>
                 </div>
             </div>
-            <div className=' m-5 text-xl lg:text-2xl bg-black rounded-xl p-1'>
+            <div className=' border-white border-4 m-5 text-xl lg:text-2xl bg-black rounded-xl p-1'>
                 <img src={diamond} alt="" />
                 <div className="font-bold mb-2">DIAMOND/BUSD</div>
                 <div className='flex flex-row text-xs w-full justify-between text-zinc-400'>
@@ -70,10 +70,12 @@ function Farm() {
                     <a href="#"><img src={plus} alt="" /></a>
                 </div>
             </div>
-            <div className='hidden lg:flex m-5 bg-black rounded-xl items-center'>
+            <div className=' border-white border-4 hidden lg:flex m-5 bg-black rounded-xl items-center'>
                 <img src={question} alt="" />
             </div>
         </div>
+        <div className='text-white text-xl absolute bottom-10'>After zapping press + button to deposit your LP's</div>
+        
     </div>
   )
 }

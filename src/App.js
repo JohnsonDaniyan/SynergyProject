@@ -9,14 +9,18 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
 import Farm from './routes/Farm';
+import Ark from './routes/Ark';
+import Navbar2 from './components/Navbar2';
 
 function App() {
   return (
     <Router>
-    <Navbar/> 
+    {/* <Navbar/>  */}
+    <Navbar2/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/farm" element={<Farm/>}></Route>
+        <Route path="/ark" element={<Ark/>}></Route>
       </Routes>
     </Router>
 
