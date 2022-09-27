@@ -5,15 +5,15 @@ import question from "../images/Gems/Frame 3.png"
 import minus from "../images/Gems/minus.png"
 import plus from "../images/Gems/plus.png"
 import zap from "../images/Gems/zap.png"
-
+import {FiExternalLink} from 'react-icons/fi'
 
 function Farm() {
   return (
     <div className=' relative bg-black pt-5xl text-white font-serif text-8xl flex flex-col justify-center items-center h-screen' >
         <div className='text-white'>Farm</div>
         <div className=' font-sans flex flex-row justify-between text-center'>
-            <div className=' border-white border-4 m-5 text-xl lg:text-2xl bg-black rounded-xl p-1'>
-                <img src={crystal} alt="" />
+            <div className=' border-white border-4 lg:m-5 m-2 text-xl lg:text-2xl bg-black rounded-xl p-1'>
+                <img className='w-48' src={crystal} alt="" />
                 <div className="font-bold mb-2">CRYSTAL/BUSD</div>
                 <div className='flex flex-row text-xs w-full justify-between text-zinc-400'>
                     <div className=' text-left'>
@@ -24,9 +24,9 @@ function Farm() {
                         <div>Circulation supply: </div>
                         <div>Total supply: </div>
                     </div>
-                    <div className=''>
-                        CRYSTAL/BNB <br />
-                        CRYSTAL
+                    <div className=' text-right'>
+                        CRYSTAL/BNB <FiExternalLink className=' inline-block'/><br />
+                        CRYSTAL <FiExternalLink className=' inline-block'/>
                     </div>
                 </div>
                 <hr />
@@ -41,8 +41,8 @@ function Farm() {
                     <a href="#"><img src={plus} alt="" /></a>
                 </div>
             </div>
-            <div className=' border-white border-4 m-5 text-xl lg:text-2xl bg-black rounded-xl p-1'>
-                <img src={diamond} alt="" />
+            <div className=' border-white border-4 lg:m-5 m-2 text-xl lg:text-2xl bg-black rounded-xl p-1'>
+                <img className='w-48' src={diamond} alt="" />
                 <div className="font-bold mb-2">DIAMOND/BUSD</div>
                 <div className='flex flex-row text-xs w-full justify-between text-zinc-400'>
                     <div className=' text-left'>
@@ -53,9 +53,9 @@ function Farm() {
                         <div>Circulation supply: </div>
                         <div>Total supply: </div>
                     </div>
-                    <div className=''>
-                        DIAMOND/BNB <br />
-                        CRYSTAL
+                    <div className=' text-right'>
+                        DIAMOND/BNB <FiExternalLink className=' inline-block'/><br />
+                        CRYSTAL <FiExternalLink className=' inline-block'/>
                     </div>
                 </div>
                 <hr />
@@ -70,7 +70,7 @@ function Farm() {
                     <a href="#"><img src={plus} alt="" /></a>
                 </div>
             </div>
-            <div className=' border-white border-4 hidden lg:flex m-5 bg-black rounded-xl items-center'>
+            <div className=' border-white border-4 hidden lg:flex lg:m-5 m-2 bg-black rounded-xl items-center'>
                 <img src={question} alt="" />
             </div>
         </div>
