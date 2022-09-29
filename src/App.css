@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+@media (min-width: 640px) {
+  #text{
+      font-size: .5rem;
+  }
+}

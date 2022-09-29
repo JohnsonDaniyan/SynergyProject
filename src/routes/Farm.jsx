@@ -10,11 +10,11 @@ import bg from '../images/farm/farmbg.jpg'
 
 function Farm() {
   return (
-    <div style={{backgroundImage:`url(${bg})`}} className='bg-bottom bg-cover relative bg-black pt-2xl text-white font-serif text-8xl flex flex-col  items-center h-screen' >
-        <div style={{WebkitTextStroke:"5px black",fontSize:"8rem"}} className='text-white'>Farm</div>
+    <div style={{backgroundImage:`url(${bg})`}} className='bg-bottom bg-cover absolute w-screen top-0 bg-black pt-2xl text-white font-serif text-8xl flex flex-col  items-center h-screen justify-center space-y-20 md:space-y-0'  >
+        <div style={{WebkitTextStroke:"5px black",fontSize:"8rem"}} className='text-white mt-20 md:mt-40'>Farm</div>
         <div className=' font-sans flex flex-row justify-between text-center'>
-            <div className='  lg:m-5 m-2 text-xl lg:text-2xl bg-black rounded-xl p-1'>
-                <img className='w-48' src={crystal} alt="" />
+            <div className='flex flex-col lg:m-5 m-2 text-base lg:text-2xl bg-black rounded-xl p-1'>
+                <img className='md:w-48 w-20 mx-auto' src={crystal} alt="" />
                 <div className="font-bold mb-2">CRYSTAL/BUSD</div>
                 <div className='flex flex-row text-xs w-full justify-between text-zinc-400'>
                     <div className=' text-left'>
@@ -42,8 +42,8 @@ function Farm() {
                     <a href="#"><img src={plus} alt="" /></a>
                 </div>
             </div>
-            <div className='  lg:m-5 m-2 text-xl lg:text-2xl bg-black rounded-xl p-1'>
-                <img className='w-48' src={diamond} alt="" />
+            <div className=' flex flex-col lg:m-5 m-2 text-base lg:text-2xl bg-black rounded-xl p-1'>
+                <img className='md:w-48 w-20 mx-auto' src={diamond} alt="" />
                 <div className="font-bold mb-2">DIAMOND/BUSD</div>
                 <div className='flex flex-row text-xs w-full justify-between text-zinc-400'>
                     <div className=' text-left'>
@@ -75,7 +75,7 @@ function Farm() {
                 <img src={question} alt="" />
             </div>
         </div>
-        <div className='text-white text-xl absolute bottom-10'>After zapping press + button to deposit your LP's</div>
+        <div className='text-white text-base md:text-xl absolute bottom-0'>After zapping press + button to deposit your LP's</div>
         
     </div>
   )

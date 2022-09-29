@@ -11,7 +11,7 @@ function Home() {
     </div>
 
     <div className='absolute bottom-40 lg:flex lg:relative  lg:bottom-0'>
-      <img className="  lg:w-auto lg:h-2xl lg:translate-x-20 lg:-rotate-90 lg:relative  bottom-10" src={bgHome} alt="" />
+      <img className=" object-contain lg:translate-x-20 lg:-rotate-90 lg:relative  bottom-10" src={bgHome} alt="" />
       </div>
     </div>
     </div>
