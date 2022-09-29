@@ -10,7 +10,7 @@ import tit from '../images/socials/tit.jpg'
 
 function Navbar2() {
   return (
-    <nav class="relative bg-black px-2 sm:px-4 py-2.5 dark:bg-gray-900  w-full z-20 top-0 left-0">
+    <nav class="relative bg-black px-2 sm:px-4 py-2.5  w-full z-20 top-0 left-0">
   
   <div class="container space-x-10 md:space-x-0 flex flex-nowrap justify-between items-center mx-auto">
   <Link to='/' class="flex items-center">
