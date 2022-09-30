@@ -12,6 +12,7 @@ import Farm from './routes/Farm';
 import Ark from './routes/Ark';
 import Navbar2 from './components/Navbar2';
 import Lottery from './routes/Lottery';
+import Portfolio from './routes/Portfolio';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/farm" element={<Farm/>}></Route>
         <Route path="/ark" element={<Ark/>}></Route>
         <Route path="/lottery" element={<Lottery/>}></Route>
+        <Route path="/portfolio" element={<Portfolio/>}></Route>
       </Routes>
     </Router>
 

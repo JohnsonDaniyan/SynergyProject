@@ -72,7 +72,7 @@ function Lottery() {
                 </div>
                 <div className="coin lg:m-0 flex flex-row lg:flex-col bg-black rounded-lg">
                     <img className='h-fit lg:hidden' src={coin} alt="" />
-                    <img className='h-1/2 m-0 hidden lg:block' src={coinLat} alt="" />
+                    <img className='h-fit m-0 hidden lg:block' src={coinLat} alt="" />
                     
                     <div className="coinText w-1/2 lg:w-max">
                         <div className="flex">
