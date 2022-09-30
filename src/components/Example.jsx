@@ -13,7 +13,7 @@ export default function Example() {
       <div>
         <Menu.Button className="inline-flex w-full justify-center  bg-black px-4 py-2 text-xl lg:text-sm font-medium text-gray-700 shadow-sm  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
           
-          <GiHamburgerMenu className=" text-white m-auto h-10 w-10 lg:h-5 lg:w-5" aria-hidden="true" />
+          <GiHamburgerMenu className=" text-white m-auto h-10 w-10 md:h-5 md:w-5" aria-hidden="true" />
         </Menu.Button>
       </div>
 
@@ -68,7 +68,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link to="/ark"
+                <Link to="/lottery"
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',

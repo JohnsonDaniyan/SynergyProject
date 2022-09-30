@@ -71,7 +71,7 @@ function Farm() {
                     <a href="#"><img src={plus} alt="" /></a>
                 </div>
             </div>
-            <div className='  hidden lg:flex lg:m-5 m-2 bg-black rounded-xl items-center'>
+            <div className='  hidden md:flex lg:m-5 m-2 bg-black rounded-xl items-center'>
                 <img src={question} alt="" />
             </div>
         </div>

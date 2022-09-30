@@ -18,9 +18,9 @@ function Navbar2() {
   </Link>
   <div class=" flex flex-row flex-nowrap items-center md:order-2 lg:text-2xl">
     <div className='hidden md:flex '>
-  <a className="m-7 md:m-3 text-sky-400" href="#"><img className=' w-5 md:w-5 lg:w-20' src={tit} alt="" /></a>
-  <a className="m-7 md:m-3 text-sky-400" href="#"><img className=' w-5 md:w-5 lg:w-20' src={dis} alt="" /></a>
-  <a className="m-7 md:m-3 text-sky-400" href="#"><img className=' w-5 md:w-5 lg:w-20' src={tel} alt="" /></a>
+  <a className="m-7 md:m-3 text-sky-400" href="https://twitter.com/SynergyCOFP"><img className=' w-5 md:w-5 lg:w-20' src={tit} alt="" /></a>
+  <a className="m-7 md:m-3 text-sky-400" href="https://discord.gg/nczxGjeTSv"><img className=' w-5 md:w-5 lg:w-20' src={dis} alt="" /></a>
+  <a className="m-7 md:m-3 text-sky-400" href="https://t.me/SynergyCOFP"><img className=' w-5 md:w-5 lg:w-20' src={tel} alt="" /></a>
   </div>
       <Example class=" inline-flex items-center p-2 text-60 lg:text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
        </Example>
@@ -34,7 +34,7 @@ function Navbar2() {
       <Link to="/ark" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">ARK</Link>
     </li>
     <li>
-      <Link to="/" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">LOTTERY</Link>
+      <Link to="/lottery" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">LOTTERY</Link>
     </li>
     <li>
       <Link to="/" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">NFT</Link>

@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="overflow-hidden h-screen absolute top-0">
     <div className=" overflow-hidden bg-black w-screen font-serif lg:flex relative h-screen text-3xl lg:text-6xl justify-between">
-    <div className=" pt-40 md:pt-0 lg:ml-80 min-w-fit text-center flex flex-col font-bold justify-center">
+    <div className=" text-4xl md:text-7xl pt-40 md:pt-0 lg:ml-80 min-w-fit text-center flex flex-col font-black justify-center">
       <div className=" text-white text-center">Total Value Locked</div>
       <div className=" text-purple-600">21.726.882$</div>
     </div>
