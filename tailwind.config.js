@@ -5,10 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        'sm':'590px',
+        'md':'900px',
+        'lg':'1596px'
+      },
       colors: {
         cardbg : '#161616'
       }
     },
   },
   plugins: [],
-}
+} 
