@@ -7,11 +7,12 @@ import plus from "../images/Gems/plus.png"
 import zap from "../images/Gems/zap.png"
 import {FiExternalLink} from 'react-icons/fi'
 import bg from '../images/farm/farmbg.jpg'
+import header from '../images/farm/header.jpg'
 
 function Farm() {
   return (
     <div style={{backgroundImage:`url(${bg})`}} className='bg-bottom bg-cover absolute w-screen top-0 bg-black pt-2xl text-white font-serif text-8xl flex flex-col  items-center h-screen justify-center space-y-20 md:space-y-0'  >
-        <div style={{WebkitTextStroke:"5px black",fontSize:"8rem"}} className='text-white mt-20 md:mt-40'>Farm</div>
+        <img className='w-1/2 mb-10' src={header} alt="" />
         <div className=' font-sans flex flex-row justify-between text-center'>
             <div className='flex flex-col lg:m-5 m-2 text-base lg:text-2xl bg-black rounded-xl p-1'>
                 <img className='md:w-48 w-20 mx-auto' src={crystal} alt="" />

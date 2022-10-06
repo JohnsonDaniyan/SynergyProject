@@ -3,12 +3,13 @@ import arkBanner from '../images/Ark/Mask group.png'
 import claim from '../images/Ark/Frame 14.png'
 import gems from '../images/Ark/gems.png'
 import bg from '../images/Ark/arkbg.jpg'
+import header from '../images/Ark/header.jpg'
 import "./arkStyles.css"
 
 function Ark() {
   return (
     <div style={{backgroundImage:`url(${bg})`}} className=' bg-cover bg-no-repeat w-screen overflow-hidden absolute top-0 bg-black pt-0 lg:pt-5xl text-white font-serif flex flex-col space-y-10 justify-center items-center h-screen' >
-        <div style={{WebkitTextStroke:"5px black",fontSize:"8rem"}} className='lg:pt-40  text-5xl md:text-8xl mb-10'>ARK</div>
+        <img className='w-1/2 md:w-1/5 mb-20 md:mt-40 md:mb-0' src={header} alt="" />
         <div className='relative'>
         <img className='rotate-90 lg:rotate-0' src={arkBanner} alt="" />
         <div  className=' lg-w-fill w-3/5 top-0 translate-x-1/2 right-1/2 absolute text-white bg-white-75  font-sans'>

@@ -3,11 +3,12 @@ import bg from '../images/lottery/lotterybg.jpg'
 import coin from '../images/lottery/coin.jpg'
 import coinLat from '../images/lottery/coinLat.jpg'
 import graph from '../images/lottery/graph.png'
+import header from '../images/lottery/header.jpg'
 
 function Lottery() {
   return (
-    <div style={{backgroundImage:`url(${bg})`}} className=' w-screen overflow-hidden absolute top-0 bg-black pt-5xl text-white font-serif flex flex-col space-y-10 justify-center items-center h-screen' >
-        <div className='lg:pt-40  text-6xl md:text-6xl mb-10'>LOTTERY</div>
+    <div style={{backgroundImage:`url(${bg})`}} className=' w-screen overflow-hidden top-0 bg-black pt-5xl text-white font-serif flex flex-col space-y-10 justify-center items-center h-screen' >
+         <img className='w-1/2 md:w-1/5 mb-20 md:mt-40 md:mb-0' src={header} alt="" />
         <div className="relative px-10 flex font-sans">
             <div className="flex space-y-5 flex-col lg:flex-row">
                 <div className='flex flex-col space-y-10'>
